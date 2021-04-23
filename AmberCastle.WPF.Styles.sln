@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmberCastle.WPF.Styles", "AmberCastle.WPF.Styles\AmberCastle.WPF.Styles.csproj", "{085C2C8B-F5F8-4E20-96B0-5EE5E3F9530B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92BE0F16-BAAC-407B-BDEB-A3F98CC0AF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmberCastle.WPF.Styles.WPFTests", "Tests\AmberCastle.WPF.Styles.WPFTests\AmberCastle.WPF.Styles.WPFTests.csproj", "{1C1E6718-C01C-4DDF-A51C-78E8D512B4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmberCastle.WPF.Styles.Tests", "Tests\AmberCastle.WPF.Styles.Tests\AmberCastle.WPF.Styles.Tests.csproj", "{86B37E4B-6689-4401-9472-E0B927EF2B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmberCastle.WPF.Styles.WPFTests.Packages", "Tests\AmberCastle.WPF.Styles.WPFTests.Packages\AmberCastle.WPF.Styles.WPFTests.Packages.csproj", "{60EEAFB1-0DF4-4697-936E-7ECA5C3F21BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{085C2C8B-F5F8-4E20-96B0-5EE5E3F9530B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085C2C8B-F5F8-4E20-96B0-5EE5E3F9530B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085C2C8B-F5F8-4E20-96B0-5EE5E3F9530B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085C2C8B-F5F8-4E20-96B0-5EE5E3F9530B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1E6718-C01C-4DDF-A51C-78E8D512B4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1E6718-C01C-4DDF-A51C-78E8D512B4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1E6718-C01C-4DDF-A51C-78E8D512B4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1E6718-C01C-4DDF-A51C-78E8D512B4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B37E4B-6689-4401-9472-E0B927EF2B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B37E4B-6689-4401-9472-E0B927EF2B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B37E4B-6689-4401-9472-E0B927EF2B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B37E4B-6689-4401-9472-E0B927EF2B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EEAFB1-0DF4-4697-936E-7ECA5C3F21BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EEAFB1-0DF4-4697-936E-7ECA5C3F21BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EEAFB1-0DF4-4697-936E-7ECA5C3F21BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EEAFB1-0DF4-4697-936E-7ECA5C3F21BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C1E6718-C01C-4DDF-A51C-78E8D512B4E1} = {92BE0F16-BAAC-407B-BDEB-A3F98CC0AF58}
+		{86B37E4B-6689-4401-9472-E0B927EF2B94} = {92BE0F16-BAAC-407B-BDEB-A3F98CC0AF58}
+		{60EEAFB1-0DF4-4697-936E-7ECA5C3F21BD} = {92BE0F16-BAAC-407B-BDEB-A3F98CC0AF58}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A3F8512-522E-4F10-A1C0-9EA48BDFC53D}
+	EndGlobalSection
+EndGlobal

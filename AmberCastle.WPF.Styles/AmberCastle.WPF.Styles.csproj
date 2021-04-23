@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageReleaseNotes>
+      Создание проекта
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>rd3bax@gmail.com</Authors>
+    <Copyright>rd3bax@gmail.com</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/RD3BAX/AmberCastle.WPF.Styles</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RD3BAX/AmberCastle.WPF.Styles</RepositoryUrl>
+    <Description>Пакет содержит стили и шаблоны элементов управления WPF под .NETCore3.1</Description>
+    <PackageTags>WPF, Styles, Templates</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>AmberCastle.WPF.Styles.snk</AssemblyOriginatorKeyFile>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+</Project>
