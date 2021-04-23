@@ -21,14 +21,14 @@ jobs:
         
     - name: Building
       run: |
-        dotnet build AmberCastle.WPF.Styles\AmberCastle.WPF.Styles.csproj -c Release
-        dotnet build Tests\AmberCastle.WPF.Styles.WPFTests\AmberCastle.WPF.Styles.Tests.csproj -c Release
+        dotnet build AmberCastle.WPF.Styles/AmberCastle.WPF.Styles.csproj -c Release
+        dotnet build Tests/AmberCastle.WPF.Styles.Tests/AmberCastle.WPF.Styles.Tests.csproj -c Release
       
     - name: Testing
-      run: dotnet test Tests\AmberCastle.WPF.Styles.WPFTests\AmberCastle.WPF.Styles.Tests.csproj
+      run: dotnet test Tests/AmberCastle.WPF.Styles.Tests/AmberCastle.WPF.Styles.Tests.csproj
 
     - name: Packing
-      run: dotnet pack AmberCastle.WPF.Styles\AmberCastle.WPF.Styles.csproj --no-build -c Release  -v q
+      run: dotnet pack AmberCastle.WPF.Styles/AmberCastle.WPF.Styles.csproj --no-build -c Release  -v q
       
     - name: Publishing
-      run: dotnet nuget push AmberCastle.WPF.Styles\bin\Release\*.nupkg -k ${{ secrets.NuGetApiKey }} -n --skip-duplicate -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push AmberCastle.WPF.Styles/bin/Release/*.nupkg -k ${{ secrets.NuGetApiKey }} -n --skip-duplicate -s https://api.nuget.org/v3/index.json
