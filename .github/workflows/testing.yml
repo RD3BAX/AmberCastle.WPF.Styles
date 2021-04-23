@@ -24,4 +24,4 @@ jobs:
         dotnet build Tests/AmberCastle.WPF.Styles.Tests/AmberCastle.WPF.Styles.Tests.csproj -c Debug --no-restore
       
     - name: Run Test
-      run: dotnet test Tests/AmberCastle.WPF.Styles.WPFTests/AmberCastle.WPF.Styles.WPFTests.csproj --no-restore --verbosity normal
+      run: dotnet test Tests/AmberCastle.WPF.Styles.Tests/AmberCastle.WPF.Styles.Tests.csproj --no-restore --verbosity normal
