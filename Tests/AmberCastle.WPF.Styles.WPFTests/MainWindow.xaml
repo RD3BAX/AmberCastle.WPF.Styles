@@ -6,11 +6,19 @@
         xmlns:l="clr-namespace:AmberCastle.WPF.Styles.WPFTests"
         Title="MainWindow" 
         Height="450" Width="800">
+    <Window.Resources>
+        
+    </Window.Resources>
     <Grid>
-        <TextBox Text="" VerticalAlignment="Top" HorizontalAlignment="Left" 
+        <!--<TextBox Text="" VerticalAlignment="Top" HorizontalAlignment="Left" 
                  Margin="10,25" Width="120"
                  Style="{StaticResource TaggedTextBoxStyle}"
-                 Tag="Введите имя:"/>
+                 Tag="Введите имя:"/>-->
+        <CheckBox VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,25"
+                  Content="Вы Уверенны?"
+                  Style="{StaticResource SwitcherCheckBoxStyle}"
+                  IsEnabled="True"
+                  IsChecked="False"/>
         <TextBox VerticalAlignment="Top" Margin="5,70"/>
     </Grid>
 </Window>
